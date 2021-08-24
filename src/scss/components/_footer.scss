@@ -1,0 +1,84 @@
+.footer {
+  background-color: $blue;
+}
+
+.footer__inner {
+  padding: 70px 0;
+}
+
+.footer__body {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.footer__suptitle {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.footer__title {
+  margin-bottom: 160px;
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  margin-right: 32px;
+  width: 370px;
+}
+
+.footer-input {
+  width: 100%;
+  padding: 20px 40px;
+  border-radius: 60px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__link {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+}
+
+.footer__list {
+  display: flex;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+:-moz-placeholder {
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
