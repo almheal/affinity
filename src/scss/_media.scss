@@ -46,6 +46,10 @@
   .news__column {
     flex: 0 0 48%;
   }
+
+  .menu-modal{
+    display: block;
+  }
 }
 
 @media (max-width: 767px) {
